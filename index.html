@@ -8,15 +8,14 @@
 </head>
 
 <body>
-    <!--The <header> element introduces the first pieces of content on the webpage. The "Horiseon" company logo is special in that it spans two 
-    classes. The Span element is useful here since we're targeting the specific characters "seo" for unique styling in the stylesheet. The nav 
-    element has a class attribute and containing an unordered list of three key subject areas for the main page. Each subject area in the nav 
-    has a hypertext anchor. When the user clicks on any of these subject areas on the nav, then the user is directly taken to that specific part 
-    of the page.-->
+    <!--The <header> element introduces the first pieces of content on the webpage. I decided to take creative liberties and build a header
+    that is clean, elegant, and fun. The nav element has a class attribute and contains an unordered list of three key sections for the
+    portfolio. Each section in the unordered list has a hypertext anchor. When the user clicks on any of these nav sections, then the user
+    is directly taken to that specific part of the page.-->
     <header> 
         <h1 class="header-line-1">AUTOMATION ENGINEERING BY STEVE</h1>
-            <!--The <nav> element is used to organize the three subject areas in an unordered list in the header. They each have a hypertext 
-            anchor and their respective unique identifiers can be found in the "content" <section> in <main>-->
+            <!--The <nav> element is used to organize the the unordered list in the header. They each have a hypertext 
+            anchor and their respective unique identifiers can be found in the <main> content section-->
             <nav class="nav-text">
                 <ul>
                     <li> <a href="#header-about-me">About Me</a></li>
@@ -28,40 +27,39 @@
         <h3 class="header-line-3">QUALITY COACH FOR RELEASING</h3>
         <h4 class="header-line-4">BETTER SOFTWARE</h4>
     </header>
-    <!--The <main> element contains the important pieces for why this page exists. Firstly, a large hero-style image is in its own section along 
-    with the alternate text attribute. Secondly, there's a content section that contains three unique articles <article> of content: Search 
-    engine optimization, online reputation management, and social media marketing. They each have their own H2 header, a paragraph of description 
-    text, and a related image with a class and alt text. The last important piece in <main> is the Benefits sidebar which is expressed through the 
-    <aside> element. The <aside> element has it's own class to be stylized. Similarly, there are three <sections> within this aside element: Lead
-    Generation, Brand Awarness, and Cost Management. They each have their own class, header, icon with alt text, and paragraph description.-->
+    <!--The <main> element contains the important pieces for why this page exists. Firstly, a large hero-style image is in its own section 
+    along with the alternate text attribute. Secondly, there are three main sections: About me, work, and contact me. Each of these has a 
+    header and cards containers that utlize the flexbox default row left and right properties. 
+    -->
     <main>
         <!--This <section> is used to organize the large hero style image within <main>-->
         <section class="hero">
             <img src="./assets/images/profile_hero3.png" alt="A large hero-style image depicting a four person digital marketing meeting"> 
         </section>
         <section id="header-about-me" class="header-about-me">ABOUT ME</section>
-        <!--This <section> is used to organize all of the important content on the webpage within <main>-->
+        <!--This <section> is used to organize all of the important card collumns for the flexbox row "about me" sections. Each uses the
+        <figure. element to structure the containers, headers, and <p> details for gamer, techie, and dog dad respectivley.-->
         <section class="row about-me">
             <div class="card-column"> 
                 <figure class="card container">
                 <h2 class="card-header-1">GAMER</h2>
-                  <div class="card-body">
+                <div class="card-body">
                     <p>Steve is a video games industry veteran having worked on numerous games on mobile platforms. Currently he's advancing his career at AAA studio Bungie where he seeks world domination.</p>
-                  </div>
+                </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
                 <h2 class="card-header-1">TECHIE</h2>
-                  <div class="card-body">
+                <div class="card-body">
                     <p>Steve took an 8 year break from video games and joined Slack. He could not pass on a chance to work on a global platform that shapes how we all work today. Steve spent nearly a decade helping make your work life simpler, more pleasant and more productive.</p>
-                  </div>
+                </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
-                  <h2 class="card-header-1">DOG DAD</h2>
-                  <div class="card-body">
+                <h2 class="card-header-1">DOG DAD</h2>
+                 <div class="card-body">
                     <p>When Steve isn't implementing new test cases or refactoring old ones, then you'll likely find him petting his two golden doodles. Jax and Zoe say hello!</p>
                   </div>
                 </figure>
