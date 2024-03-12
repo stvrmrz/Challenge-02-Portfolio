@@ -21,17 +21,16 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Example Horiseon web page
+Example Webpage
 
-![Horiseon Project Example Web Page](/assets/images/02-advanced-css-homework-demo.gif)
+![Project Example Web Page](/assets/images/02-advanced-css-homework-demo.gif)
 
 
-This web page was originally written without semantic structure. The challenge for this project is to refactor the starter html
-code and rewrite it semantically. In the process of doing this, we also have an oppurtunity to expand on the web page's accessibilty. 
+This project was designed to teach us about building and structuring a professional portfolio. Utilization of advanced css like media queries, and flexbox, I was able to build my webpage from scratch. My approach was to keep the look of the design simple and clearn and scalable as more and more project get completed.
 
 Here's why we're doing this:
-* Great refresher on the basics of HTML and how it's stylized with CSS
-* Great refresher on version control, Git, and GitHub
+* Putting to use advanced techniques with CSS
+* Once again, great refresher on version control, Git, and GitHub
 * Showcase the importance of accessbility 😀
 
 
