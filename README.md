@@ -23,8 +23,7 @@
 ## About The Project
 Example Horiseon web page
 
-![Horiseon Project Example Web Page](/assets/images/01-html-css-git-homework-demo.png)
-
+![Horiseon Project Example Web Page](/assets/images/02-advanced-css-homework-demo.gif)
 
 
 This web page was originally written without semantic structure. The challenge for this project is to refactor the starter html
