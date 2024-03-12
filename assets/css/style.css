@@ -4,26 +4,26 @@
     padding: 0;
     margin: 0;
 }
-/* Sets the background color to #d9dcd6 to the <body> element in the HTML */
+/* Sets the background color to #3d4435 and text color #ffffff to the <body> element in the HTML */
 body {
     background-color: #3d4435;
     color: #ffffff;
 }
-/* Sets padding, font-family, background color, and text color to the <header> element in the HTML */
+/* Sets padding, background color, text alignment, and text color to the <header> element in the HTML */
 header {
     padding: 20px;
     text-align: center;
     background-color: #3d4435;
     color: #ffffff;
 }
-/* Sets display, and font size styling to the "hori" class in the HTML <header> */
+/* Sets display, font size, font-family, font-weight to the header-line-1 class in the HTML <header> */
 .header-line-1  {
     display: block;
     font-size: 32px;
     font-family: 'Helvetica Neue', 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: lighter;
 }
-/* Sets padding, margin, positioning, font-family, and font size to the "nav-text-right" class in the HTML <header> */
+/* Sets padding, margin, font-weight, font-family, and font size to the "nav-text" class in the HTML <header> */
 .nav-text {
     padding-top: 15px;
     font-family: 'Optima', 'Helvetica Neue', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
@@ -35,7 +35,7 @@ ul {
     list-style-type: none;
  
 }
-/* Sets a display and margin to the list items for use in the HTML */
+/* Sets a display and margin on left/right sides to the list items for use in the HTML */
 li {
     display: inline-block;
     margin-left: 8px;
@@ -46,7 +46,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/* Sets display, and font size styling to the "hori" class in the HTML <header> */
+/* Sets display, padding, font family, font weight, and font size styling to the "header-line-2" class in the HTML <header> */
 .header-line-2  {
     padding-top: 120px;
     display: block;
@@ -54,7 +54,7 @@ a {
     font-family: 'Helvetica Neue', 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: lighter;
 }
-/* Sets display, and font size styling to the "hori" class in the HTML <header> */
+/* Sets display, padding, font family, font weight, and font size styling to the "header-line-3" class in the HTML <header> */
 .header-line-3  {
     padding-top: 30px;
     display: block;
@@ -62,7 +62,7 @@ a {
     font-family: 'Helvetica Neue', 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: 135;
 }
-/* Sets display, and font size styling to the "hori" class in the HTML <header> */
+/* Sets display, padding, font family, font weight, and font size styling to the "header-line-4" class in the HTML <header> */
 .header-line-4  {
     padding-bottom: 40px;
     display: block;
@@ -82,7 +82,7 @@ p {
     object-position: center;
     display: block;
 }
-/* Sets display, and font size styling to the "hori" class in the HTML <header> */
+/* Sets display, padding, text align, font size, font family, font weight styling to the "header-about-me" class in the HTML <header> */
 .header-about-me  {
     padding-top: 125px;
     text-align: center;
@@ -91,7 +91,7 @@ p {
     font-family: 'Helvetica Neue', 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: 135;
 }
-/* Sets display, and font size styling to the "hori" class in the HTML <header> */
+/* Sets display, padding, text align, font size, font family, font weight styling to the "header-work" class in the HTML <header> */
 .header-work  {
     padding-top: 125px;
     text-align: center;
@@ -100,7 +100,7 @@ p {
     font-family: 'Helvetica Neue', 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: 135;
 }
-/* Sets display, and font size styling to the "hori" class in the HTML <header> */
+/* Sets display, padding, text align, font size, font family, font weight styling to the "header-contact-me" class in the HTML <header> */
 .header-contact-me  {
     padding-top: 125px;
     text-align: center;
@@ -109,28 +109,28 @@ p {
     font-family: 'Helvetica Neue', 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: 135;
 }
-/* Sets display, and font size styling to the "hori" class in the HTML <header> */
+/* Sets display, flex-wrap, and flex-direction */
 .row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-/* Sets width, display, and margin to the "content" class in <main> */
+/* Sets padding, and justified content to the about me section in the html*/
 .about-me {
     padding-bottom: 60px;
     justify-content: center;
 }
-/* Sets width, display, and margin to the "content" class in <main> */
+/* Sets padding, and justified content to the work section in the html*/
 .work {
     padding-bottom: 60px;
     justify-content: center;
 }
-/* Sets width, display, and margin to the "content" class in <main> */
+/* Sets padding, and justified content to the contact me section in the html*/
 .contact-me {
     padding-bottom: 60px;
     justify-content: center;
 }
-/* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
+/* create a base column width to be 100% and we'll update it using media queries for larger screen sizes */
 .card-column .card-column-primary {
     flex: 1 0 100%;
     padding: 1.5rem;
@@ -157,14 +157,14 @@ p {
     text-align: center;
 }
 .container .card-header-1 {
-    /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
+    /* use position to move header of card and establish font size, font family and font weight. */
     position: relative;
     font-size: 32px;
     font-family: 'Helvetica Neue', 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: lighter;
 }
 .container .card-header-2 {
-    /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
+    /* use position to move header of card and establish font size, font family and font weight. This with padding for style */
     position: relative;
     font-size: 32px;
     font-family: 'Helvetica Neue', 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
@@ -172,19 +172,21 @@ p {
     padding-bottom: 30px;
 }
 .container-primary .card-header-2 {
-    /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
+    /* use position to move header of card and establish font size, font family and font weight.This with padding and specific
+    for our showcase project card (primary) */
     position: relative;
     font-size: 32px;
     font-family: 'Helvetica Neue', 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     padding-bottom: 30px;
 }
+/* Sets font family, padding and font-weight. */
 .card-body {
     font-family: 'Optima', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     padding-top: 30px;
 }
-/* Sets padding, clear, font family, and text align to the "footer" class in the <footer> section of the <body> */
+/* Sets padding, clear, font family, font-weight, text align, and text align to the "footer" class in the <footer> section of the <body> */
 .footer {
     padding: 30px;
     clear: both;
@@ -196,30 +198,28 @@ p {
 .footer h2 {
     font-size: 16px;
 }
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* For a mobile-first approach we use `min-width` since values go from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
     .card-column {
       flex: 0 0 40%;
       max-width: 40%;
     }
   }
-  /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* For a mobile-first approach we use `min-width` since values go from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
     .card-column-primary {
       flex: 0 0 80%;
       max-width: 100%;
     }
   }
-  /* media query for larger screens */
+/* media query for larger screens */
 @media screen and (min-width: 992px) {  
     .card-column {
       flex: 0 0 33.333%;
       max-width: 33.333%;
     }
   }
-    /* media query for larger screens */
+/* media query for larger screens */
 @media screen and (min-width: 992px) {  
     .card-column-primary {
       max-width: 100%;

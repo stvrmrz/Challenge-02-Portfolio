@@ -38,127 +38,134 @@
         </section>
         <section id="header-about-me" class="header-about-me">ABOUT ME</section>
         <!--This <section> is used to organize all of the important card collumns for the flexbox row "about me" sections. Each uses the
-        <figure. element to structure the containers, headers, and <p> details for gamer, techie, and dog dad respectivley.-->
+        <figure. element to structure the containers, headers, and <p> details for gamer, techie, and dog dad respectivley. User can reach
+        this section by scrolling or clicking on the "about me" <a href>.-->
         <section class="row about-me">
             <div class="card-column"> 
                 <figure class="card container">
-                <h2 class="card-header-1">GAMER</h2>
-                <div class="card-body">
-                    <p>Steve is a video games industry veteran having worked on numerous games on mobile platforms. Currently he's advancing his career at AAA studio Bungie where he seeks world domination.</p>
-                </div>
+                    <h2 class="card-header-1">GAMER</h2>
+                    <div class="card-body">
+                        <p>Steve is a video games industry veteran having worked on numerous games on mobile platforms. Currently he's advancing his career at AAA studio Bungie where he seeks world domination.</p>
+                    </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
-                <h2 class="card-header-1">TECHIE</h2>
-                <div class="card-body">
-                    <p>Steve took an 8 year break from video games and joined Slack. He could not pass on a chance to work on a global platform that shapes how we all work today. Steve spent nearly a decade helping make your work life simpler, more pleasant and more productive.</p>
-                </div>
+                    <h2 class="card-header-1">TECHIE</h2>
+                    <div class="card-body">
+                        <p>Steve took an 8 year break from video games and joined Slack. He could not pass on a chance to work on a global platform that shapes how we all work today. Steve spent nearly a decade helping make your work life simpler, more pleasant and more productive.</p>
+                    </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
-                <h2 class="card-header-1">DOG DAD</h2>
-                 <div class="card-body">
-                    <p>When Steve isn't implementing new test cases or refactoring old ones, then you'll likely find him petting his two golden doodles. Jax and Zoe say hello!</p>
-                  </div>
+                    <h2 class="card-header-1">DOG DAD</h2>
+                    <div class="card-body">
+                        <p>When Steve isn't implementing new test cases or refactoring old ones, then you'll likely find him petting his two golden doodles. Jax and Zoe say hello!</p>
+                    </div>
                 </figure>
             </div>
         </section>
+        <!--Adding some stylish horizonaal section dividers to the page -->
         <hr class="solid-line-1">
+        <!--Now we're entering the the real meat and potatoes of <main>. Similar to the About me section above, we use flexbox to our advantage
+        in the CSS to make sure these cards flex with as the user moves the browser around. This section contains six containers each with a
+        header, image, and description. There is also seventh one that is used to spotlight the primary work project. They are organized using <di>
+        for better clarity. These cards since there's so much repeated code would benefit by using a JavaScript function, and calling to that methood
+        to generate them. But I'm not there yet. Oh well. Also, I made a custom placeholder image to use for the six projects I made up.-->
         <section id="header-work" class="header-work">WORK</section>
         <section class="row work">
             <div class="card-column"> 
                 <figure class="card container">
-                  <h2 class="card-header-2">NOTES APP</h2>
-                  <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
-                  <div class="card-body">
-                    <p>A note app that does just that. Takes notes.</p>
-                  </div>
+                    <h2 class="card-header-2">NOTES APP</h2>
+                        <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
+                    <div class="card-body">
+                        <p>A note app that does just that. Takes notes.</p>
+                    </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
-                  <h2 class="card-header-2">TEXT GAME</h2>
-                  <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
-                  <div class="card-body">
-                    <p>Every play Hunt the Wumpus? Well, thiis slightly more fun than that.</p>
-                  </div>
+                    <h2 class="card-header-2">TEXT GAME</h2>
+                        <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
+                    <div class="card-body">
+                        <p>Every play Hunt the Wumpus? Well, thiis slightly more fun than that.</p>
+                    </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
-                  <h2 class="card-header-2">ACCESSIBILITY</h2>
-                  <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
-                  <div class="card-body">
-                    <p>This project showcases how important accessbility is as a use case. Turn on your screen reader.</p>
-                  </div>
+                    <h2 class="card-header-2">ACCESSIBILITY</h2>
+                        <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
+                    <div class="card-body">
+                        <p>This project showcases how important accessbility is as a use case. Turn on your screen reader.</p>
+                    </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
-                  <h2 class="card-header-2">INPUT TEXT</h2>
-                  <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
-                  <div class="card-body">
-                    <p>Look at all you can do with just text input. Who'd have thought?</p>
-                  </div>
+                    <h2 class="card-header-2">INPUT TEXT</h2>
+                        <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
+                    <div class="card-body">
+                        <p>Look at all you can do with just text input. Who'd have thought?</p>
+                    </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
-                  <h2 class="card-header-2">BOX MODEL</h2>
-                  <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
-                  <div class="card-body">
-                    <p>Content, padding, border, margin, oh my!</p>
-                  </div>
+                    <h2 class="card-header-2">BOX MODEL</h2>
+                        <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
+                    <div class="card-body">
+                        <p>Content, padding, border, margin, oh my!</p>
+                    </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
-                  <h2 class="card-header-2">CALCULATOR</h2>
-                  <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
-                  <div class="card-body">
-                    <p>It's a simple calculator. Nothing fancy.</p>
-                  </div>
+                    <h2 class="card-header-2">CALCULATOR</h2>
+                        <img src="./assets/images/place-holder.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
+                    <div class="card-body">
+                        <p>It's a simple calculator. Nothing fancy.</p>
+                    </div>
                 </figure>
             </div>
-            
-            <!-- <section class="card container"> -->
-
-                <div class="card-column-primary"> 
-                    <figure class="card container-primary">
-                      <h2 class="card-header-2">WEBPAGE</h2>
-                      <a href="https://youtube.com" target="_blank">
-                        <img src="./assets/images/refactor-demo.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook" width="736px">
-                      </a>
-                      <div class="card-body">
+            <!--This project card a bit unique in that we want to showcase this one by taking up more real estate on the page compared to the
+            other six project cards. This one I linked to my existing deployed homework project for week one by using <a href> and I also gave
+            it a more unique picture that's in full color.-->
+            <div class="card-column-primary"> 
+                <figure class="card container-primary">
+                    <h2 class="card-header-2">WEBPAGE</h2>
+                        <a href="https://youtube.com" target="_blank">
+                            <img src="./assets/images/refactor-demo.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook" width="736px">
+                        </a>
+                    <div class="card-body">
                         <p>A semantically refactored mock web page.</p>
-                      </div>
-                    </figure>
-                </div>
-
-            <!-- </section>  -->
-
+                    </div>
+                </figure>
+            </div>
         </section>
+        <!--Adding some stylish horizonaal section dividers to the page-->
         <hr class="solid-line-2">
+        <!--And lastly, similar to About Me and Work above, we have just three card columns in the row left to right default direction. This has
+        a simple header, container and description. This is a call to action for anyone who would like to contact me: LinkedIn, Email, or X.-->
         <section id="header-contact-me" class="header-contact-me">CONTACT ME</section>
         <section class="row contact-me">
             <div class="card-column"> 
                 <figure class="card container">
-                  <h2 class="card-header-1">LINKEDIN</h2>
-                  <div class="card-body">
-                    <p><a href="https://www.linkedin.com/in/stvrmrz">https://www.linkedin.com/in/stvrmrz</a></p>
-                  </div>
+                    <h2 class="card-header-1">LINKEDIN</h2>
+                    <div class="card-body">
+                        <p><a href="https://www.linkedin.com/in/stvrmrz">https://www.linkedin.com/in/stvrmrz</a></p>
+                    </div>
                 </figure>
             </div>
             <div class="card-column"> 
                 <figure class="card container">
-                  <h2 class="card-header-1">EMAIL</h2>
-                  <div class="card-body">
-                    <p><a href="stevearamirez@gmail.com">stevearamirez@gmail.com</a></p>
-                  </div>
+                    <h2 class="card-header-1">EMAIL</h2>
+                    <div class="card-body">
+                        <p><a href="stevearamirez@gmail.com">stevearamirez@gmail.com</a></p>
+                    </div>
                 </figure>
-            </div>
+            </div> 
             <div class="card-column"> 
                 <figure class="card container">
                   <h2 class="card-header-1">X</h2>
@@ -169,7 +176,7 @@
             </div>
         </section>
     </main>
-    <!--The <footer> element here is used to describe who made the webpage and to declare their respective copyright. The information in footer 
+    <!--The <footer> element here is used to describe who made the webpage and to declare their respective fake copyright. The information in footer 
     is simple and only needs a header and a paragraph. The footer element has a class attribute of "footer" that is used in the stylsheet to add 
     style to the footer section and its header text.-->
     <footer class="footer">
@@ -178,20 +185,5 @@
             &copy; 2024 This is my first website, Inc.
         </p>
     </footer>
-
 </body>
 </html>
-
-
-
-            <!-- <div class="card-column"> 
-                <figure class="card container">
-                  <h2 class="card-header-2">WEBPAGE</h2>
-                  <a href="https://youtube.com" target="_blank">
-                    <img src="./assets/images/refactor-demo.jpg" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook" width="400px">
-                  </a>
-                  <div class="card-body">
-                    <p>A semantically refactored mock web page.</p>
-                  </div>
-                </figure>
-            </div> -->
