@@ -198,14 +198,14 @@ p {
 .footer h2 {
     font-size: 16px;
 }
-/* For a mobile-first approach we use `min-width` since values go from narrow -> wide for a responsive design */
+/* On mobile we use `min-width` since values go from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
     .card-column {
       flex: 0 0 40%;
       max-width: 40%;
     }
   }
-/* For a mobile-first approach we use `min-width` since values go from narrow -> wide for a responsive design */
+/* On mobile we use `min-width` since values go from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
     .card-column-primary {
       flex: 0 0 80%;
@@ -237,7 +237,7 @@ p {
           width: 100%;
         }
       }
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* max-width media query */
 @media screen and (max-width: 768px) {
     /* on tablets, set columns to only be 50% of the width and not grow */
     .card-column img {
@@ -245,14 +245,14 @@ p {
       align-self: center;
     }
   }
-  /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* max-width media query */
 @media screen and (max-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
     .card-column-primary img {
       width: 100%;
       align-self: center;
     }
   }
+/* solid line media query */
   @media screen {
     .solid-line-1 {
         margin-left: auto;
@@ -260,6 +260,7 @@ p {
         width: 95%;
     }
   }
+  /* solid line media query */
   @media screen {
     .solid-line-2 {
         margin-left: auto;
