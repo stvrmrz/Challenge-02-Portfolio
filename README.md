@@ -31,7 +31,7 @@ This project was designed to teach us about building and structuring a professio
 Here's why we're doing this:
 * Putting to use advanced techniques with CSS
 * Once again, great refresher on version control, Git, and GitHub
-* Showcase the importance of accessbility 😀
+* Showcase the importance of clean and up to date portfolio.
 
 
 <!-- GETTING STARTED -->
@@ -62,18 +62,26 @@ reccomended to install Visual Studio code as well.
 <!-- USAGE EXAMPLES -->
 ## Link to Deployed Application
 
-_Here is a link to my [Deployed Horiseon Web Page](https://stvrmrz.github.io/Challenge-02-Portfolio/)_
+_Here is a link to my [Deployed Portfolio Web Page](https://stvrmrz.github.io/Challenge-02-Portfolio/)_
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] When I view the source code, then I find semantic HTML elements
-- [x] When I view the structure of the HTML elements, then I find that elements follow a logical structure independent of styling and positioning
-- [x] When I view the icon and image elements, then I find accessible alt attributes
-- [x] When I view the heading attributes, then they fall in sequential order
-- [x] When I view the title element, then I find a concise descriptive title
+GIVEN I need to sample a potential employee's previous work
+- [x] WHEN I load their portfolio
+      THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+- [x] WHEN I click one of the links in the navigation
+      THEN the UI scrolls to the corresponding section
+- [x] WHEN I click on the link to the section about their work
+      THEN the UI scrolls to a section with titled images of the developer's applications
+- [x] WHEN I am presented with the developer's first application
+      THEN that application's image should be larger in size than the others
+- [x] WHEN I click on the images of the applications
+      THEN I am taken to that deployed application
+- [x] WHEN I resize the page or view the site on various screens and devices
+      THEN I am presented with a responsive layout that adapts to my viewport
 
-See the [closed issues](https://github.com/stvrmrz/Challenge-01-Refactor/issues?q=is%3Aissue+is%3Aclosed) for a full list of features.
+See the [closed issues](https://github.com/stvrmrz/Challenge-02-Portfolio/issues/1) for a full list of features.
 
 <!-- LICENSE -->
 ## License
@@ -85,7 +93,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Steve Ramirez - [@stvrmrz](https://twitter.com/stvrmrz) - stevearamirez@gmail.com
 
-Project Link: [https://github.com/stvrmrz/Challenge-01-Refactor](https://github.com/stvrmrz/Challenge-01-Refactor)
+Project Link: [https://github.com/stvrmrz/Challenge-02-Portfolio](https://github.com/stvrmrz/Challenge-02-Portfolio)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -93,11 +101,10 @@ Project Link: [https://github.com/stvrmrz/Challenge-01-Refactor](https://github.
 Here are some of the resources that I used that I want to give credit to:
 
 * [othneildrew Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [Semantic HTML Web.dev ](https://web.dev/learn/html/semantic-html)
-* [Hero sections — accessible, semantic and performant](https://medium.com/@matt.dawkins/hero-sections-accessible-semantic-and-performant-c04502e16f40)
-* [CSS FAQ MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/CSS_FAQ)
-* [Understanding the Purpose and Usage of the span Element in HTML](https://www.bloomtech.com/programming-questions/what-is-span-in-html#:~:text=The%20element%20is%20often,or%20semantics%20of%20the%20document.)
-* [ID vs. Class CSS: Which Should You Use?](https://www.bestcolleges.com/bootcamps/guides/css-class-vs-id/#:~:text=What%20Is%20Class%3F,They%20are%20not%20unique.)
-* [How to create a full-page hero image (HTML & CSS)](https://codetheweb.blog/fullscreen-image-hero/)
-* [aspect-ratio MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
-* [Stack Overflow](https://stackoverflow.com/questions/43388041/why-is-there-a-few-pixels-of-white-space-margin-at-the-bottom-of-position-absolu)
+* [w3schools css-align](https://www.w3schools.com/css/css_align.asp)
+* [studytonight divider ](https://www.studytonight.com/css-howtos/how-to-create-divider-with-css)
+* [w3school divider](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dividers)
+* [Heading Tags insightonline](https://www.insightonline.co.nz/blog/heading-tags-good-for-seo-but-what-if-they-are-the-wrong-size#:~:text=Traditionally%20they%20are%20like%20the,This%20is%20the%20default%20styling.)
+* [w3 centering things](https://www.w3.org/Style/Examples/007/center.en.html#text)
+* [css tricks flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-examples)
+* [cards getbootstrap)](https://getbootstrap.com/docs/4.0/components/card/#:~:text=A%20card%20is%20a%20flexible,colors%2C%20and%20powerful%20display%20options.)
